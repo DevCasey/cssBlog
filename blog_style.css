@@ -14,3 +14,21 @@ nav .navbar > a {
     color: white;
     text-decoration: none;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 1em;
+    padding-top: 75px;
+}
+
+.wrapper > div {
+    background: #eee;
+}
+.wrapper > div:nth-child(odd) {
+    background: #ddd;
+}
+
+.box1 {
+    
+}
