@@ -1,0 +1,16 @@
+body {
+    background-color: #f3eeee;
+}
+
+.navbar {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(35px, auto);
+    background-image: linear-gradient(300deg, #ddd 0%, #55605f  100%);
+}
+
+nav .navbar > a {
+    color: white;
+    text-decoration: none;
+}
