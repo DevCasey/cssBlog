@@ -10,6 +10,7 @@ body {
 .navbar {
     display: flex;
     flex-direction: row-reverse;
+    width: 100%;
     
     /* text-align: center; */
     /* grid-template-columns: 1fr; */
@@ -42,8 +43,15 @@ div .enter > a {
     padding-top: 75px;
 }
 
-.enter {
+/* .enter {
     padding-top: 40px;
+} */
+
+.enter_cont {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper > div {
@@ -52,3 +60,5 @@ div .enter > a {
 .wrapper > div:nth-child(odd) {
     background: #ddd;
 }
+
+
