@@ -11,6 +11,8 @@ body {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
+    top: 0;
+    position: fixed;
     
     /* text-align: center; */
     /* grid-template-columns: 1fr; */

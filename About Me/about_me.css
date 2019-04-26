@@ -10,11 +10,8 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-  
-  /* text-align: center; */
-  /* grid-template-columns: 1fr; */
-  /* grid-auto-rows: minmax(35px, auto); */
-  /* background-image: linear-gradient(300deg, #55605f 0%, #ddd   100%); */
+  top: 0;
+  position: fixed;
 }
  
  nav .navbar > a {
@@ -42,11 +39,4 @@ body {
   
 }
  
-/* .wrapper > div {
-  background: #eee;
- }
-
-.wrapper > div:nth-child(odd) {
-  background: #ddd;
- } */
  
