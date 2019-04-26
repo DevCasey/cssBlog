@@ -1,14 +1,15 @@
 body {
-    background-image: url('/Assets/br_image.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+  background-image: url('/Assets/br_image.jpg');
+  background-attachment: fixed;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
     
  }
  
- .navbar {
+.navbar {
   display: flex;
   flex-direction: row-reverse;
+  width: 100%;
   
   /* text-align: center; */
   /* grid-template-columns: 1fr; */
@@ -17,16 +18,14 @@ body {
 }
  
  nav .navbar > a {
-     color: #5a5858;
-     text-decoration: none;
-     text-align: right;
-     padding-right: 20px;
-     padding-top: 10px;
+  color: #5a5858;
+  text-decoration: none;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 10px;
  }
 
  
- 
-
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
