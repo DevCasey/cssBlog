@@ -12,8 +12,9 @@ body {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
-    top: 0;
+    
     position: fixed;
+
      
     /* text-align: center; */
     /* grid-template-columns: 1fr; */
@@ -72,4 +73,11 @@ body {
     grid-gap: 1em;
     padding-top: 75px;
  }
+
+.links:hover {
+   background: #5a5858;
+   color: white;
+}
+
+
 

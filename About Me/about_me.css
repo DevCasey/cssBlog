@@ -38,5 +38,9 @@ body {
   background: rgba(214, 206, 206, 0.5);
   
 }
- 
+
+.links:hover {
+  background: #5a5858;
+  color: white;
+}
  
